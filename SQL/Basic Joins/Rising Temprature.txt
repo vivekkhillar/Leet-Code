@@ -48,6 +48,6 @@ Solution:
 select a.id as Id 
 from Weather as a 
 inner JOIN Weather as b 
-on datediff(a.recordDate,b.recordDate) =1
+on datediff(a.recordDate,b.recordDate) =1 
 WHere a.temperature > b.temperature
 group by a.id
