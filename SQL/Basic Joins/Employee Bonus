@@ -67,3 +67,4 @@ select name , bonus from employee as e1
 left join bonus as b1
 on e1.empId = b1.empId
 where bonus is null or bonus < 1000
+    
